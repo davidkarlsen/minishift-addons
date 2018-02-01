@@ -1,5 +1,6 @@
 # Name: kube-dashboard
 # Description: Deploys the kubernetes dashboard
+# See https://github.com/kubernetes/dashboard/wiki/Compatibility-matrix for version compatability
 # Url: https://github.com/kubernetes/dashboard
 
 # oc adm policy add-scc-to-user anyuid system:serviceaccount:kube-dashboard:default
